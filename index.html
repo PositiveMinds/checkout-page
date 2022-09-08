@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout page</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><a href="#"><span class="logo-container"><span class="text-left">Code</span><span
+                        class="text-right">Club</span></span></a></div>
+        <div class="links">
+            <ul class="link-item">
+                <li><a href="#">New</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="">Kids</a></li>
+                <li><a href="">Special offers</a></li>
+            </ul>
+
+
+            <ul class="shop-icons">
+                <li><a href=""><i class='bx bx-search'></i></a></li>
+                <li><a href=""><i class='bx bx-heart'></i></a></li>
+                <li><a href=""><i class='bx bx-shopping-bag active'></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="checkout">
+
+            <span class="summary-header">checkout</span>
+
+            <div class="line"></div>
+
+            <div class="summary-content">
+                <div class="img-detail">
+                    <div class="img"><img src="images/9.jpg" alt="" srcset=""></div>
+                    <div class="text">
+                        <div class="product-name">
+                            <p class="product-title">Apple Watch</hp>
+                        </div>
+                        <p class="desc">
+                            Generic Wristbands for Apple Watch Band 40mm
+                        </p>
+                        <div class="px-plus-minus">
+                            <div class="px">UGX 100,000</div>
+                            <div class="minus-plus">
+                                <span class="minus">-</span>
+                                <span class="NoofItems"><input type="text" name="NoofItems" id="" value="22"></span>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="img-detail">
+                    <div class="img"><img src="images/8.jpg" alt="" srcset=""></div>
+                    <div class="text">
+                        <div class="product-name">
+                            <p class="product-title">Vans Shoes</p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Confortable vans Shoes red. make your weekend perfect
+                            </p>
+                        </div>
+                        <div class="px-plus-minus">
+                            <div class="px">UGX 36,000</div>
+                            <div class="minus-plus">
+                                <span class="minus">-</span>
+                                <span class="NoofItems"><input type="text" name="NoofItems" id="" value="2"></span>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+
+                <div class="img-detail">
+                    <div class="img"><img src="images/1.jpg" alt="" srcset=""></div>
+                    <div class="text">
+                        <div class="product-name">
+                            <p class="product-title">Nike Shoes</p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                light Red Nike shoes for your casual wear.
+                            </p>
+                        </div>
+                        <div class="px-plus-minus">
+                            <div class="px">UGX 45,000</div>
+                            <div class="minus-plus">
+                                <span class="minus">-</span>
+                                <span class="NoofItems"><input type="text" name="NoofItems" id="" value="2"></span>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div> <!-- content details ends=============== -->
+
+            <div class="px-summary">
+                <div class="sub-total">
+                    <div class="text">SubTotal</div>
+                    <div class="px">UGX 136,000</div>
+                </div>
+
+                <div class="Shipping-cost">
+                    <div class="text">Shipping Cost</div>
+                    <div class="px">UGX 8000</div>
+                </div>
+
+                <div class="discount">
+                    <div class="text">Discount</div>
+                    <div class="px">UGX 8000</div>
+                </div>
+
+                <div class="total">
+                    <div class="text">Total</div>
+                    <div class="px">UGX 181,000</div>
+                </div>
+
+                <label for="checkout_modal" class="checkout-btn" id="checkout-btn">Checkout</label>
+
+                <input type="checkbox" name="checkout_modal" id="checkout_modal">
+
+            </div>
+        </div>
+    </section>
+
+    <div class="payment" id="pmtForm">
+
+        <div class="contentwrapper">
+
+            <div class="leftside">
+                <img src="images/hp.png" alt="">
+                <div class="overlay"></div>
+            </div>
+
+            <form action="" class="payment-content">
+                <a href="#" class="close">&times;</a>
+                <div class="header">Secure payment Info</div>
+                <div class="form-group">
+                    <label for="name" class="input-label">Name on card</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Rein Anderson">
+                </div>
+
+                <div class="form-group">
+                    <label for="card-number" class="input-label">Card Number</label>
+                    <input type="number" name="card-number" id="card-number" class="form-control"
+                        placeholder="0000 0000 0000 0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="expiry-date" class="input-label">Expiry Date</label>
+                    <input type="date" name="expiry-date" id="expiry-date" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="security-code" class="input-label">Security Code</label>
+                    <input type="number" name="security-code" id="security-code" class="form-control"
+                        placeholder="0000">
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="chkout-btn">Checkout</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
